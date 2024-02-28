@@ -15,7 +15,7 @@ console.log(button.getAttribute("id")); //yine button elemntinin ıd sini verir.
 
 console.log(button.className); //class isimlerini öğrenmiş oluruz.burda aslında 4 tane class var bootstrap olarak .
 console.log(button.getAttribute("class")); //clasını verir.
-
+// ?classları liste olarak seçmek için.
 const classList = button.classList[3]
 console.log(classList);  //buttonumun class listesini alırız. bunun bir dizi olduğunu görürüz. ve istediğimişz indextteki classları alabiliriz.
 
@@ -89,5 +89,5 @@ console.log(todolistelerim);
 const todom = Array.from(document.querySelectorAll("li:nth-child(even)"));
 
 todom.forEach(function(todo){
-   todo.style.backgraundColor = "light-grey";
+   todo.style.backgraundColor = "lightgrey";
 })
